@@ -1,0 +1,105 @@
+{
+  "headings": [
+    {
+      "id": "uuid1",
+      "level": 1,
+      "text": "Main Heading",
+      "children": [
+        {
+          "id": "uuid2",
+          "level": 2,
+          "text": "Subheading 1",
+          "children": [
+            {
+              "id": "uuid3",
+              "level": 3,
+              "text": "Sub-subheading 1.1",
+              "children": []
+            },
+            {
+              "id": "uuid4",
+              "level": 3,
+              "text": "Sub-subheading 1.2",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "uuid5",
+          "level": 2,
+          "text": "Subheading 2",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "content": {
+    "uuid1": {
+      "title": "Main Heading",
+      "content": "This is the content for Main Heading.\nIt spans two lines."
+    },
+    "uuid2": {
+      "title": "Subheading 1",
+      "content": "Content for Subheading 1.\nIt also spans two lines."
+    },
+    "uuid3": {
+      "title": "Sub-subheading 1.1",
+      "content": "Content for Sub-subheading 1.1.\nThis is the second line."
+    },
+    "uuid4": {
+      "title": "Sub-subheading 1.2",
+      "content": "Content for Sub-subheading 1.2.\nAnother two lines of content."
+    },
+    "uuid5": {
+      "title": "Secondary Main Heading",
+      "content": "This is the content for Secondary Main Heading.\nIt spans two lines as well."
+    }
+  },
+  "blocks": [
+    {
+      "id": "uuid1",
+      "size": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 2
+      }
+    },
+    {
+      "id": "uuid2",
+      "size": {
+        "x": 0,
+        "y": 42,
+        "w": 10,
+        "h": 2
+      }
+    },
+    {
+      "id": "uuid3",
+      "size": {
+        "x": 0,
+        "y": 84,
+        "w": 10,
+        "h": 2
+      }
+    },
+    {
+      "id": "uuid4",
+      "size": {
+        "x": 0,
+        "y": 126,
+        "w": 10,
+        "h": 2
+      }
+    },
+    {
+      "id": "uuid5",
+      "size": {
+        "x": 0,
+        "y": 168,
+        "w": 10,
+        "h": 2
+      }
+    }
+  ]
+}
