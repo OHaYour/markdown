@@ -1,6 +1,6 @@
 ### 使用说明
 
-npm install
+npm install、
 npm start
 
 
